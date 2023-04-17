@@ -1,0 +1,32 @@
+header {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  background: #eedfd4;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transform: rotate(90deg);
+}
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 59px;
+  transform: rotate(180deg);
+}
+.temperature-header {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  transform: rotate(180deg);
+}
+.h1-hidden {
+  visibility: hidden;
+}
+.div-header {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-right: 59px;
+}
