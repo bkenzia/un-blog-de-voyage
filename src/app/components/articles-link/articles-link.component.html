@@ -3,7 +3,11 @@
 </div>
 
 <section>
-  <div *ngFor="let article of autreArticles" class="article">
+  <div
+    *ngFor="let article of autreArticles"
+    class="article"
+    routerLink="article/{{ article.id }}"
+  >
     <img src="{{ article.image_principal }}" alt="" />
     <div class="details-img-principale">
       <h2>{{ article.pays }}-{{ article.ville }}</h2>
