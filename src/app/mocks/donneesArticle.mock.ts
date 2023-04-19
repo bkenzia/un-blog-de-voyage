@@ -2,8 +2,8 @@ export interface IDonnesArticle {
   id: number;
   pays: string;
   ville: string;
-  date_depart: Date;
-  date_retour: Date;
+  date_depart: string;
+  date_retour: string;
   image_principal: string;
   images_secondaire: string[];
   text_voyage: string;
@@ -18,8 +18,8 @@ export const ARTICLES: IDonnesArticle[] = [
     id: 1,
     pays: 'Albanie',
     ville: 'Tirana',
-    date_depart: new Date(14, 4, 22),
-    date_retour: new Date(17, 5, 22),
+    date_depart: '14-4-22',
+    date_retour: '17-5-22',
     image_principal: '../../assets/images/Albanie-Tirana.png',
     images_secondaire: [
       '../../assets/images/Albanie-Tirana.png',
@@ -45,8 +45,8 @@ export const ARTICLES: IDonnesArticle[] = [
     id: 2,
     pays: 'Grèce',
     ville: 'Athène',
-    date_depart: new Date(14, 4, 22),
-    date_retour: new Date(17, 5, 22),
+    date_depart: '14-4-22',
+    date_retour: '17-5-22',
     image_principal: '../../assets/images/Grèce-Athène.png',
     images_secondaire: [
       '../../assets/images/Grèce-Athène.png',
@@ -72,8 +72,8 @@ export const ARTICLES: IDonnesArticle[] = [
     id: 3,
     pays: 'Guatemala',
     ville: 'Monterrico',
-    date_depart: new Date(14, 4, 22),
-    date_retour: new Date(17, 5, 22),
+    date_depart: '14-4-22',
+    date_retour: '17-5-22',
     image_principal: '../../assets/images/Guatemala-Monterrico.png',
     images_secondaire: [
       '../../assets/images/Guatemala-Monterrico.png',
@@ -99,8 +99,8 @@ export const ARTICLES: IDonnesArticle[] = [
     id: 4,
     pays: 'Tunisie',
     ville: 'Tunis',
-    date_depart: new Date(14, 4, 22),
-    date_retour: new Date(17, 5, 22),
+    date_depart: '14-4-22',
+    date_retour: '17-5-22',
     image_principal: '../../assets/images/Tunisie-Tunis.png',
     images_secondaire: [
       '../../assets/images/Tunisie-Tunis.png',
@@ -126,8 +126,8 @@ export const ARTICLES: IDonnesArticle[] = [
     id: 4,
     pays: 'Tunisie',
     ville: 'El Jem',
-    date_depart: new Date(14, 4, 22),
-    date_retour: new Date(17, 5, 22),
+    date_depart: '14-4-22',
+    date_retour: '17-5-22',
     image_principal: '../../assets/images/Tunisie-El-Jem.png',
     images_secondaire: [
       '../../assets/images/Tunisie-El-Jem.png',

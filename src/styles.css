@@ -126,9 +126,9 @@ table {
 hr {
   margin: 0;
 }
-
-app-header {
-  position: relative;
-  top: 672px;
-  left: -45vw;
+body {
+  overflow-x: hidden;
+}
+app-root {
+  display: flex;
 }
