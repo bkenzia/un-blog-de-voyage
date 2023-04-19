@@ -1,0 +1,4 @@
+p {
+  margin-top: clamp(88px, 3vw, 202px);
+  margin-bottom: clamp(43px, 3vw, 138px);
+}

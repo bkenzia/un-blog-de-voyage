@@ -2,6 +2,10 @@ main {
   width: 100vw;
   margin-left: 14vw;
 }
+app-footer {
+  text-align: center;
+  margin-top: clamp(88px, 3vw, 202px);
+}
 @media (max-width: 414px) {
   main {
     margin-left: 0;
