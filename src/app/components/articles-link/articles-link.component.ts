@@ -13,11 +13,9 @@ export class ArticlesLinkComponent {
     this.getArticles();
   }
   getArticles(): IDonnesArticle[] {
-    const dernierarticle = this.articles.pop();
+    const dernierarticle = this.articles[this.articles.length - 1];
     this.articles.forEach((ele) => {
-      console.log(ele);
       if (ele != dernierarticle) {
-        console.log('ele', ele);
         this.autreArticles.push(ele);
       }
     });

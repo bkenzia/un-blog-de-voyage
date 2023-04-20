@@ -9,6 +9,7 @@ import { DernierArticleComponent } from './components/dernier-article/dernier-ar
 import { ArticlesLinkComponent } from './components/articles-link/articles-link.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ArticleComponent } from './pages/article/article.component';
+import { EntTetePageArticlesComponent } from './components/ent-tete-page-articles/ent-tete-page-articles.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ArticleComponent } from './pages/article/article.component';
     DernierArticleComponent,
     ArticlesLinkComponent,
     FooterComponent,
-    ArticleComponent
+    ArticleComponent,
+    EntTetePageArticlesComponent
   ],
   imports: [
     BrowserModule,

@@ -10,6 +10,6 @@ import { IDonnesArticle } from 'src/app/mocks/donneesArticle.mock';
 export class DernierArticleComponent {
   dernierArticle: IDonnesArticle = ARTICLES[ARTICLES.length - 1];
   ngOnInit() {
-    console.log(this.dernierArticle);
+    console.log('long de table données', ARTICLES.length);
   }
 }
