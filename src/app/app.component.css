@@ -1,6 +1,7 @@
 main {
   width: 100vw;
   margin-left: 14vw;
+  position: relative;
 }
 app-footer {
   text-align: center;

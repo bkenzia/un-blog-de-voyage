@@ -1,0 +1,33 @@
+section {
+  width: 60vw;
+  margin: auto;
+  margin-top: 7vw;
+}
+h2 {
+  font-size: clamp(16px, 2.5vw, 30px);
+  font-weight: 400;
+  margin-bottom: clamp(33px, 3vw, 44px);
+}
+li {
+  list-style: disc;
+}
+p {
+  padding-bottom: 1rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+ul {
+  margin-bottom: 2rem;
+}
+ul:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 414px) {
+  section {
+    width: 80vw;
+    margin-top: 19.48vw;
+  }
+}

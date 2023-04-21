@@ -1,0 +1,26 @@
+section {
+  width: 60vw;
+  margin: auto;
+  margin-top: 16vw;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-size: clamp(16px, 2.5vw, 30px);
+  font-weight: 400;
+}
+p {
+  font-size: clamp(12px, 2.5vw, 16px);
+  font-weight: 400;
+}
+div {
+  margin-bottom: clamp(33px, 3vw, 44px);
+}
+
+@media (max-width: 414px) {
+  section {
+    width: 80vw;
+    margin-top: 19.48vw;
+  }
+}

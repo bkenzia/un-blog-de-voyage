@@ -1,0 +1,19 @@
+button {
+  background: #c96b41;
+  border: none;
+  display: block;
+  width: clamp(74px, 12vw, 150px);
+  height: clamp(74px, 12vw, 150px);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+img {
+  width: clamp(14px, 3vw, 30px);
+}
+
+@media (max-width: 414px) {
+  button {
+    top: 70px;
+  }
+}

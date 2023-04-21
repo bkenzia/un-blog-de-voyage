@@ -34,6 +34,8 @@ p {
 h2 {
   /* padding: 40px 49px; */
   font-size: clamp(16px, 2.5vw, 30px);
+}
+.title {
   margin-bottom: clamp(35px, 3vw, 44px);
   margin-top: clamp(8px, 3vw, 141px);
 }
