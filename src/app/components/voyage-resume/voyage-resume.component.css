@@ -1,0 +1,28 @@
+section {
+  width: 60vw;
+  margin: auto;
+  margin-top: 7vw;
+}
+h2 {
+  font-size: clamp(16px, 2.5vw, 30px);
+  font-weight: 400;
+  margin-bottom: clamp(33px, 3vw, 44px);
+}
+p {
+  color: white;
+  margin: 0px clamp(21px, 3vw, 56px);
+  white-space: pre-wrap;
+}
+div {
+  width: 100%;
+  background: #c96b41;
+  padding: clamp(23px, 3vw, 61px) 0px;
+  /* padding: 61px 56px; */
+}
+
+@media (max-width: 414px) {
+  section {
+    width: 80vw;
+    margin-top: 19.48vw;
+  }
+}

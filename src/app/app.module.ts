@@ -10,6 +10,10 @@ import { ArticlesLinkComponent } from './components/articles-link/articles-link.
 import { FooterComponent } from './components/footer/footer.component';
 import { ArticleComponent } from './pages/article/article.component';
 import { EntTetePageArticlesComponent } from './components/ent-tete-page-articles/ent-tete-page-articles.component';
+import { ButtonBackComponent } from './components/button-back/button-back.component';
+import { VoyageResumeComponent } from './components/voyage-resume/voyage-resume.component';
+import { NotreAvisComponent } from './components/notre-avis/notre-avis.component';
+import { VoyagerPlusComponent } from './components/voyager-plus/voyager-plus.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { EntTetePageArticlesComponent } from './components/ent-tete-page-article
     ArticlesLinkComponent,
     FooterComponent,
     ArticleComponent,
-    EntTetePageArticlesComponent
+    EntTetePageArticlesComponent,
+    ButtonBackComponent,
+    VoyageResumeComponent,
+    NotreAvisComponent,
+    VoyagerPlusComponent
   ],
   imports: [
     BrowserModule,

@@ -132,3 +132,17 @@ body {
 app-root {
   display: flex;
 }
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: black;
+}
+li,
+p {
+  font-family: "Inter";
+  font-style: normal;
+}
+footer {
+  font-family: "Lora";
+  font-style: normal;
+}

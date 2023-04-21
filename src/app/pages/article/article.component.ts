@@ -22,7 +22,6 @@ export class ArticleComponent {
   getArticle() {
     const id = Number(this.activatedRout.snapshot.paramMap.get('id'));
     const articleFound = this.getArticleById(id);
-    console.log(articleFound);
     if (articleFound) {
       this.article = articleFound;
     } else {

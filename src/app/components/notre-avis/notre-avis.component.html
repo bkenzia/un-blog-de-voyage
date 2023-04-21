@@ -1,0 +1,15 @@
+<section>
+  <h2>Notre avis</h2>
+  <ul>
+    <p>Les plus</p>
+    <li *ngFor="let positiv of avis!.points_positifs">{{ positiv }}</li>
+  </ul>
+  <ul>
+    <p>Les Les moins</p>
+    <li *ngFor="let negative of avis!.points_negatif">{{ negative }}</li>
+  </ul>
+  <ul>
+    <p>Mon conseil</p>
+    <li *ngFor="let element of avis!.conseil">{{ element }}</li>
+  </ul>
+</section>
