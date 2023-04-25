@@ -14,7 +14,7 @@ import { ButtonBackComponent } from './components/button-back/button-back.compon
 import { VoyageResumeComponent } from './components/voyage-resume/voyage-resume.component';
 import { NotreAvisComponent } from './components/notre-avis/notre-avis.component';
 import { VoyagerPlusComponent } from './components/voyager-plus/voyager-plus.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +28,10 @@ import { VoyagerPlusComponent } from './components/voyager-plus/voyager-plus.com
     ButtonBackComponent,
     VoyageResumeComponent,
     NotreAvisComponent,
-    VoyagerPlusComponent
+    VoyagerPlusComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

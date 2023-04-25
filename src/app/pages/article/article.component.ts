@@ -10,6 +10,7 @@ import { ARTICLES } from 'src/app/mocks/donneesArticle.mock';
 })
 export class ArticleComponent {
   article!: IDonnesArticle;
+  titleSection: string[] = ['Le voyage', 'En résumé'];
   constructor(private activatedRout: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {

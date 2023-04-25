@@ -54,6 +54,9 @@ export const ARTICLES: IDonnesArticle[] = [
     images_secondaire: [
       '../../assets/images/Grèce-Athène.png',
       '../../assets/images/Grèce-Athène.png',
+      '../../assets/images/Grèce-Athène.png',
+      '../../assets/images/Grèce-Athène.png',
+      '../../assets/images/Grèce-Athène.png',
     ],
     text_voyage:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.',
@@ -79,6 +82,9 @@ export const ARTICLES: IDonnesArticle[] = [
     date_retour: '17-5-22',
     image_principal: '../../assets/images/Guatemala-Monterrico.png',
     images_secondaire: [
+      '../../assets/images/Guatemala-Monterrico.png',
+      '../../assets/images/Guatemala-Monterrico.png',
+      '../../assets/images/Guatemala-Monterrico.png',
       '../../assets/images/Guatemala-Monterrico.png',
       '../../assets/images/Guatemala-Monterrico.png',
     ],
@@ -108,6 +114,9 @@ export const ARTICLES: IDonnesArticle[] = [
     images_secondaire: [
       '../../assets/images/Tunisie-Tunis.png',
       '../../assets/images/Tunisie-Tunis.png',
+      '../../assets/images/Tunisie-Tunis.png',
+      '../../assets/images/Tunisie-Tunis.png',
+      '../../assets/images/Tunisie-Tunis.png',
     ],
     text_voyage:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.Donec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.',
@@ -135,9 +144,12 @@ export const ARTICLES: IDonnesArticle[] = [
     images_secondaire: [
       '../../assets/images/Tunisie-El-Jem.png',
       '../../assets/images/Tunisie-El-Jem.png',
+      '../../assets/images/Tunisie-El-Jem.png',
+      '../../assets/images/Tunisie-El-Jem.png',
+      '../../assets/images/Tunisie-El-Jem.png',
     ],
     text_voyage:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor massa id sem iaculis, et rutrum ligula ornare. Etiam malesuada diam justo, nec sagittis ligula rhoncus sit amet. Fusce ac viverra nisi. Integer nibh urna, posuere euismod dolor ac.\n \nDonec commodo pellentesque sapien eu interdum. Vestibulum neque nulla, mattis eget hendrerit nec, tempus pharetra est. Nulla facilisi. Curabitur elit lorem, rhoncus quis quam et, imperdiet euismod mi. Morbi eget elit ac velit porttitor sodales. Nulla scelerisque risus ex, a faucibus est eleifend sed. Aliquam ac facilisis lorem, ut ornare velit.dignissim metus. Aliquam dignissim lorem id nisi aliquet, a sodales ipsum dignissim.',
     points_positifs: [
       'Un pays très simple à sillonner, sans embrouilles ni complexité',
       'Des habitants gentils, spontanés et qui cherchent le contact',

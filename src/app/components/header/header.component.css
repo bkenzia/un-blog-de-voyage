@@ -20,7 +20,7 @@ h1 {
   font-size: 30px;
   line-height: 36px;
   /* padding: 59px; */
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   width: 222px;
   margin-top: 137px;
   margin-bottom: 6px;
@@ -29,23 +29,23 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   width: 29vh;
 }
 .h1-hidden {
   visibility: hidden;
-  /* width: 222px; */
 }
 .div-header {
-  /* border-left: 1px solid black; */
-  /* border-right: 1px solid black; */
-  /* margin-right: 59px; */
   width: inherit;
   border-top: 1px solid black;
   flex-basis: 42vh;
   border-bottom: 1px solid black;
-  /* padding-top: 194px; */
 }
+p {
+  transform: rotate(-90deg);
+  text-align: end;
+}
+
 @media (max-width: 414px) {
   header {
     height: 70px;
@@ -56,9 +56,14 @@ h1 {
     z-index: 1;
   }
   .temperature-header {
-    transform: rotate(0deg);
+    /* transform: rotate(0deg); */
     padding: 20px;
     font-size: 12px;
+    width: 56px;
+  }
+  p {
+    transform: rotate(0deg);
+    text-align: start;
   }
   h1 {
     transform: rotate(0deg);

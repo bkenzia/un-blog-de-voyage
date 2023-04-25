@@ -1,4 +1,9 @@
 p {
   margin-top: clamp(88px, 3vw, 202px);
   margin-bottom: clamp(43px, 3vw, 138px);
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
 }
