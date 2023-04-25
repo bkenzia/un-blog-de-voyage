@@ -7,7 +7,7 @@ img {
   width: 100%;
 }
 h2 {
-  font-size: clamp(16px, 2.5vw, 30px);
+  font-size: clamp(24px, 2.5vw, 60px);
   font-weight: 400;
 }
 p {
@@ -22,5 +22,8 @@ div {
   section {
     width: 80vw;
     margin-top: 19.48vw;
+  }
+  h2 {
+    padding-top: 19.48vw;
   }
 }

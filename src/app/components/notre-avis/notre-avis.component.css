@@ -4,12 +4,15 @@ section {
   margin-top: 7vw;
 }
 h2 {
-  font-size: clamp(16px, 2.5vw, 30px);
+  font-size: clamp(24px, 2.5vw, 60px);
   font-weight: 400;
   margin-bottom: clamp(33px, 3vw, 44px);
 }
 li {
   list-style: disc;
+  margin-left: 1.75rem;
+  font-size: 20px;
+  line-height: 24px;
 }
 p {
   padding-bottom: 1rem;

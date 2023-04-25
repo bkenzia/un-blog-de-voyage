@@ -8,9 +8,5 @@ import { IDonnesArticle } from 'src/app/mocks/donneesArticle.mock';
 })
 export class VoyageResumeComponent {
   @Input() voyage?: string;
-  //textVoyage = this.voyage.text_voyage;
-  //textResum?: string = this.voyage?.text_resume;
-  ngOnInit() {
-    //console.log(this.textVoyage);
-  }
+  @Input() title?: string;
 }

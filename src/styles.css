@@ -135,7 +135,7 @@ app-root {
 h2 {
   font-family: "Lora", serif;
   font-weight: 400;
-  color: black;
+  line-height: 36px;
 }
 li,
 p {
